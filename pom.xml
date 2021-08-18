@@ -7,6 +7,9 @@
     <groupId>com.semihbkgr</groupId>
     <artifactId>kotlin-design-patterns</artifactId>
     <version>1.0.0</version>
+    <modules>
+        <module>abstract-document</module>
+    </modules>
     <packaging>pom</packaging>
 
     <properties>
