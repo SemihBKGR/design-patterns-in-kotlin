@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>abstract-document</module>
         <module>singleton</module>
     </modules>
 
