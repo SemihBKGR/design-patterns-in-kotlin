@@ -42,7 +42,7 @@ Singleton.properties
 - java.lang.System#getSecurityManager()
 
 
-### References
+### Kotlin Docs
 
 - https://kotlinlang.org/docs/object-declarations.html
 - https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-lazy/
