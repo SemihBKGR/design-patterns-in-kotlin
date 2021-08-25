@@ -1,8 +1,8 @@
-# Factory
+# Factory Design Pattern
 
-|Name|Type|
-|---|---|
-|Factory|Creational|
+|Name|Type|A.K.A.|
+|---|---|---|
+|Factory|Creational|<ul><li>Simple Factory</li><li>Static Factory Method</li></ul>|
 
 ### In plain words
 

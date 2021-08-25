@@ -45,4 +45,5 @@ Wikipedia says
 
 Here is a list of design patterns which are implemented in this repository
 
-* [Singleton](https://github.com/SemihBKGR/kotlin-design-patterns/tree/master/singleton#singleton)
+* [Factory](https://github.com/SemihBKGR/kotlin-design-patterns/tree/master/singleton#factory-design-pattern)
+* [Singleton](https://github.com/SemihBKGR/kotlin-design-patterns/tree/master/factory#singleton-design-pattern)
