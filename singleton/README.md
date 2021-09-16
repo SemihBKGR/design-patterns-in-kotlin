@@ -16,23 +16,53 @@
 > The term comes from the mathematical concept of a singleton.
 
 ## Explanation
+The initialization of an object declaration is thread-safe and done on first access.
+To refer to the object, use its name directly.
 
 ## Implementation
 
 ### Example:
 
 ```kotlin
-object Singleton {
-    //Properties and functions
+object AppInfo {
+
+    init {
+        println("AppInfo singleton instance is being initialized")
+    }
+
+    val name: String = "Application"
+    val version: String = "1.0.0"
+    val os: String by lazy {
+        println("Looking for OS")
+        System.getProperty("os.name")
+    }
+
+    fun getAppTitle(): String = "$name: $version"
+
+    fun instanceAddress(): String = Integer.toHexString(this.hashCode())
+
 }
 ```
 
 ```kotlin
-//Access to the instance
-Singleton.properties
+fun main() {
+    
+    println("AppTitle : ${AppInfo.getAppTitle()}")
+    println("Singleton instance address: ${AppInfo.instanceAddress()}")
+    println("Singleton instance address: ${AppInfo.instanceAddress()}")
+    println("OS Name: ${AppInfo.os}")
+    
+}
 ```
 
-### Use Case
+```console
+AppInfo singleton instance is being initialized
+AppTitle : Application: 1.0.0
+Singleton instance address: 783e6358
+Singleton instance address: 783e6358
+Looking for OS
+OS Name: Windows 10
+```
 
 ### Real World Examples
 
@@ -41,5 +71,5 @@ Singleton.properties
 
 ### Kotlin Docs
 
-- https://kotlinlang.org/docs/object-declarations.html
+- https://kotlinlang.org/docs/object-declarations.html#object-declarations-overview
 - https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-lazy/
