@@ -15,6 +15,7 @@
         <module>strategy</module>
         <module>observer</module>
         <module>builder</module>
+        <module>adapter</module>
     </modules>
 
     <properties>
