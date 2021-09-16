@@ -4,17 +4,17 @@ class Item(val name: String, var price: Float) {
 
     val observerList: MutableList<PriceObserver> = mutableListOf<PriceObserver>()
 
-    fun addObserver(priceObserver: PriceObserver){
+    fun addObserver(priceObserver: PriceObserver) {
         this.observerList.add(priceObserver)
     }
 
-    fun removeObserver(priceObserver:PriceObserver){
+    fun removeObserver(priceObserver: PriceObserver) {
         this.observerList.remove(priceObserver)
     }
 
-    fun updatePrice(discount:Discount){
-        price*=(1f-discount.percentage)
-        observerList.forEach { it.update(discount,this) }
+    fun updatePrice(discount: Discount) {
+        price *= (1f - discount.percentage)
+        observerList.forEach { it.update(discount, this) }
     }
 
     override fun equals(other: Any?): Boolean {
@@ -31,6 +31,5 @@ class Item(val name: String, var price: Float) {
     override fun hashCode(): Int {
         return name.hashCode()
     }
-
 
 }

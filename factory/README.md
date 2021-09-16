@@ -99,7 +99,7 @@ fun main() {
 }
 ```
 
-Program output
+Program Output
 
 ```
 Reading PNG image
