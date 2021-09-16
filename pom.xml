@@ -13,6 +13,7 @@
         <module>singleton</module>
         <module>factory</module>
         <module>strategy</module>
+        <module>observer</module>
     </modules>
 
     <properties>
