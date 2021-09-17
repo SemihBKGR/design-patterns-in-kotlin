@@ -1,16 +1,15 @@
 package com.semihbkgr.strategy
 
-class TransactionLogger(private var strategy: TransactionLoggingStrategy) {
+import java.text.DateFormat
+import java.util.*
+
+class TransactionLogger(private var strategy: LoggingStrategy, private var dateFormat: DateFormat) {
 
     fun logTransaction(transaction: Transaction) {
-        strategy.log(transaction)
+        strategy.log("${dateFormat.format(Date(transaction.timeMS))} - ${transaction.username}: ${transaction.description}")
     }
 
-    fun logAllTransactions(vararg transactions: Transaction) {
-        transactions.forEach { logTransaction(it) }
-    }
-
-    fun changeStrategy(strategy: TransactionLoggingStrategy) {
+    fun changeStrategy(strategy: LoggingStrategy) {
         this.strategy = strategy
     }
 
