@@ -1,12 +1,9 @@
 package com.semihbkgr.adapter
 
-class NotificationAdapter(notification: Notification) :
-    Message("System", notification.to, notification.extractText(), notification.extractTime()) {
+class NotificationAdapter(private val notification: Notification) : Message{
 
-    override fun getHead(): String {
-         return "${super.timeMS} | ${super.to}"
-    }
+    override fun getHead(): String = "${notification.extractTime()} | ${notification.to}"
 
-
+    override fun getBody(): String = notification.extractText()
 
 }

@@ -4,10 +4,10 @@ fun main() {
 
     val messageFormatter = MessageFormatter()
 
-    val message= Message("user1","user2","Hello",System.currentTimeMillis())
+    val message= TextMessage("user1","user2","Hello",System.currentTimeMillis())
     println(messageFormatter.format(message))
 
-    val notification= Notification("user1","${System.currentTimeMillis()}-Maintenance notification".toCharArray())
+    val notification= Notification("user1","${System.currentTimeMillis()}-Maintenance Notification".toCharArray())
     val notificationAdapter=NotificationAdapter(notification)
     println(messageFormatter.format(notificationAdapter))
 

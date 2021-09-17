@@ -1,13 +1,9 @@
 package com.semihbkgr.adapter
 
-open class Message(val from: String, val to: String, val text: String, val timeMS: Long) {
+interface Message {
 
-    open fun getHead():String{
-        return "$timeMS | $from -> $to"
-    }
+    fun getHead():String
 
-    fun getBody():String{
-        return "$text"
-    }
+    fun getBody():String
 
 }
