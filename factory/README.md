@@ -10,7 +10,7 @@ Providing a static method that creates new instance without exposing any instant
 make client code focus on usage. These methods are generally encapsulated in a class called as factory and the type of
 generated object is determined at runtime.
 
-### Wikipedia says
+### Wikipedia
 
 > In object-oriented programming (OOP), a factory is an object for creating other objects – formally a factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be "new".
 
@@ -107,7 +107,7 @@ Reading JPG image
 Reading empty image
 ```
 
-### Real World Examples
+### Real World Uses
 
 - java.text.NumberFormat#getInstance()
 - java.nio.charset.Charset#forName()

@@ -58,7 +58,6 @@ object NoLoggingStrategy : LoggingStrategy {
 ```
 
 Main Function
-
 ```kotlin
 fun main() {
     val transactionLogger = TransactionLogger(ConsoleLoggingStrategy, SimpleDateFormat("yyyy.MM.dd HH:mm"))
@@ -74,7 +73,6 @@ fun main() {
 ```
 
 Program Output
-
 ```
 In Console: 2021.09.17 08:08 - user1: sign up
 In File: 2021.09.17 08:08 - user1: sign in
