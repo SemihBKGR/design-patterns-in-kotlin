@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.semihbkgr</groupId>
-    <artifactId>kotlin-design-patterns</artifactId>
+    <artifactId>design-patterns-in-kotlin</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
