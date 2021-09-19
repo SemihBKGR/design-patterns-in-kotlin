@@ -1,4 +1,4 @@
-# Introduction
+# Design Patterns in Kotlin
 
 Design patterns implemented in Kotlin
 
