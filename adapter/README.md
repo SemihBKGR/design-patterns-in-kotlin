@@ -4,25 +4,23 @@
 |---|---|---|
 |Adapter|Structural|<ul><li>Wrapper</li></ul>|
 
-## Explanation
+##Explanation
 
-Adapter pattern lets you provide a link between two incompatible types by wrapping 'Adaptee' in a class (Adapter) that
-implements the type required by the client.
+> The adapter pattern is used to provide a link between two otherwise incompatible types by wrapping the"adaptee" with a
+> class that supports the interface required by the client.
 
 ### Intent
-
 > Convert the interface of a class into another interface the clients expect. Adapter lets classes work together that
 > couldn't otherwise because of incompatible interfaces.
 
 ### Wikipedia
-
 > In software engineering, the adapter pattern is a software design pattern (also known as wrapper, an alternative naming
 > shared with the decorator pattern) that allows the interface of an existing class to be used as another interface. It is
 > often used to make existing classes work with others without modifying their source code.
 
 ## Implementation
 
-<img src="./src/main/resources/uml.png">
+<img src="./src/main/resources/adapter-uml.png" width="750">
 
 ### Example
 
@@ -85,7 +83,7 @@ class Notification(val to: String, val body: CharArray) {
 ```
 
 NotificationAdapter is Adapter class provide a link between Notification and Message by wrapping Notification and
-implementing Message interface. So we can use Notifiaciton in MessafeFormatter API
+implementing Message interface. NotificationAdapter class lets clients use Notification objects in MessafeFormatter API.
 
 ```kotlin
 class NotificationAdapter(private val notification: Notification) : Message {
