@@ -1,48 +1,54 @@
 # Design Patterns in Kotlin
 
-Design patterns implemented in Kotlin
+Implementation of design patterns in Kotlin
 
 ## Types of Design Patterns
 
-Design Patterns are mainly categorized into three categories. These are Creational Design Pattern, Structural Design Pattern, and Behavioral Design Pattern
+Design Patterns are mainly categorized into three section
 
-* [Creational](#creational-design-patterns)
-* [Structural](#structural-design-patterns)
-* [Behavioral](#behavioral-design-patterns)
+* [Creational](#creational)
+* [Structural](#structural)
+* [Behavioral](#behavioral)
 
-## Creational Design Patterns
+## Creational
 
-In plain words
-
-Creational patterns are focused towards how to instantiate an object or group of related objects.
-
-Wikipedia says:
 > In software engineering, creational design patterns are design patterns that deal with object creation mechanisms,
 > trying to create objects in a manner suitable to the situation. The basic form of object creation could result
 > in design problems or added complexity to the design. Creational design patterns solve this problem by somehow
-> controlling this object creation.
+> controlling this object creation.\
+> \
+> Source: [Wikipedia](https://en.wikipedia.org/wiki/Creational_pattern)
+
+List of patterns
 
 * Factory
 * Singleton
 * Builder
 
-## Structural Design Patterns
+## Structural
 
-Structural patterns are mostly concerned with object composition or in other words how the entities can use each other. Or yet another explanation would be, they help in answering "How to build a software component?"
+> In software engineering, structural design patterns are design patterns that ease the design by identifying a simple way
+> to realize relationships among entities.\
+> \
+> Source: [Wikipedia](https://en.wikipedia.org/wiki/Structural_pattern)
 
-Wikipedia says:
-> In software engineering, structural design patterns are design patterns that ease the design by identifying a simple
-> way to realize relationships between entities.
+List of patterns
 
 * Adapter
 
-## Behavioral Design Patterns
+## Behavioral
 
-It is concerned with assignment of responsibilities between the objects. What makes them different from structural patterns is they don't just specify the structure but also outline the patterns for message passing/communication between them. Or in other words, they assist in answering "How to run a behavior in software component?"
-
-Wikipedia says:
 > In software engineering, behavioral design patterns are design patterns that identify common communication patterns
-> between objects and realize these patterns. By doing so, these patterns increase flexibility in carrying out this
-> communication.
+> among objects. By doing so, these patterns increase flexibility in carrying out communication.\
+> \
+> Source: [Wikipedia](https://en.wikipedia.org/wiki/Behavioral_pattern)
+
+List of patterns
 
 * Observer
+
+## References
+
+- Design Patterns: Elements of Reusable Object
+- Gang of Four Design Patterns Reference Sheet
+
