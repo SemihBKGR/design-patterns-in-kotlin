@@ -4,17 +4,25 @@
 |---|---|---|
 |Strategy|Behavioral|<ul><li>Policy</li></ul>|
 
-### Explanation
+## Explanation
 
-Strategy pattern is used to choose and switch best-suited interchangeable algorithms at runtime. Strategy pattern makes
-the algorithm independent from the clients that use it.
+> The strategy pattern is used to create an interchangeable family of algorithms from which the required process is chosen
+> at run-time.
+
+### Intent
+
+> Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary
+> independently from clients that use it.
 
 ### Wikipedia
 
-> In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use.
+> In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design pattern
+> that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives
+> run-time instructions as to which in a family of algorithms to use.
 
-### Implementation
+## Implementation
 
+<img src="./src/main/resources/strategy-uml.png" width="750">
 
 ### Example
 
@@ -22,7 +30,9 @@ the algorithm independent from the clients that use it.
 data class Transaction(val username: String, val description: String) {
     val timeMS: Long = System.currentTimeMillis()
 }
+```
 
+```kotlin
 class TransactionLogger(private var strategy: LoggingStrategy, private var dateFormat: DateFormat) {
     fun logTransaction(transaction: Transaction) {
         strategy.log("${dateFormat.format(Date(transaction.timeMS))} - ${transaction.username}: ${transaction.description}")
@@ -58,6 +68,7 @@ object NoLoggingStrategy : LoggingStrategy {
 ```
 
 Main Function
+
 ```kotlin
 fun main() {
     val transactionLogger = TransactionLogger(ConsoleLoggingStrategy, SimpleDateFormat("yyyy.MM.dd HH:mm"))
@@ -73,12 +84,13 @@ fun main() {
 ```
 
 Program Output
+
 ```
 In Console: 2021.09.17 08:08 - user1: sign up
 In File: 2021.09.17 08:08 - user1: sign in
 No Logging
 ```
 
-### Real World Uses
+### Known Uses
 
 - org.springframework.security.core.context.SecurityContextHolderStrategy
