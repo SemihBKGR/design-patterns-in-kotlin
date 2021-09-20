@@ -1,11 +1,11 @@
 package com.semihbkgr.prototype
 
-class Tower(x:Int,y:Int,color:String,var capacity:Int):Building(x,y,color) {
+class Tower(x: Int, y: Int, color: String, var capacity: Int) : Building(x, y, color) {
 
-    constructor(tower:Tower):this(tower.x,tower.y,tower.color,tower.capacity)
+    constructor(tower: Tower) : this(tower.x, tower.y, tower.color, tower.capacity)
 
-    override fun clone(): Tower=Tower(this)
+    override fun clone(): Tower = Tower(this)
 
-    override fun toString(): String = super.toString()+" capacity: $capacity"
+    override fun toString(): String = "Tower: " + super.toString() + " capacity: $capacity"
 
 }
