@@ -7,7 +7,7 @@ open class TextMessage(val from: String, val to: String, val text: String, val t
     }
 
     override fun getBody():String{
-        return "$text"
+        return text
     }
 
 }
