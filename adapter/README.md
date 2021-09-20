@@ -83,7 +83,7 @@ class Notification(val to: String, val body: CharArray) {
 ```
 
 NotificationAdapter is Adapter class provide a link between Notification and Message by wrapping Notification and
-implementing Message interface. NotificationAdapter class lets clients use Notification objects in MessafeFormatter API.
+implementing Message interface. NotificationAdapter class lets clients use Notification objects in MessageFormatter API.
 
 ```kotlin
 class NotificationAdapter(private val notification: Notification) : Message {

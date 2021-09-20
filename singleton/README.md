@@ -30,11 +30,11 @@ thread-safe. Object types cannot have any primary or secondary constructor.
 
 ### Example
 
-AppInfo has only one instance and each AppInfo variable refers to it. 
+AppInfo has only one instance and each AppInfo variable refers to it.
 
 ```kotlin
 object AppInfo {
-    
+
     init {
         println("AppInfo singleton instance is being initialized")
     }
@@ -45,11 +45,11 @@ object AppInfo {
         println("Looking for OS")
         System.getProperty("os.name")
     }
-    
+
     fun getAppTitle(): String = "$name: $version"
-    
+
     fun instanceAddress(): String = Integer.toHexString(this.hashCode())
-    
+
 }
 ```
 
@@ -74,6 +74,14 @@ Singleton instance address: 783e6358
 Looking for OS
 OS Name: Windows 10
 ```
+
+## Applicability
+
+Use the Singleton pattern when
+
+* there must be exactly one instance of a class, and it must be accessible to clients from a well-known access point.
+* when the sole instance should be extensible by subclassing, and clients should be able to use an extended instance
+  without modifying their code.
 
 ### Known Uses
 
