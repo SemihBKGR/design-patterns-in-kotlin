@@ -4,22 +4,20 @@
 |---|---|---|
 |Factory|Creational|<ul><li>Simple Factory</li><li>Static Factory Method</li></ul>|
 
-### Explanation
-
-Providing a static method that creates new instance without exposing any instantiation logic to the client in order to
-make client code focus on usage. These methods are generally encapsulated in a class called as factory and the type of
-generated object is determined at runtime.
+## Explanation
 
 ### Wikipedia
 
-> In object-oriented programming (OOP), a factory is an object for creating other objects – formally a factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be "new".
+> In object-oriented programming (OOP), a factory is an object for creating other objects – formally a factory is a
+> function or method that returns objects of a varying prototype or class from some method call, which is assumed to be "
+> new".
 
-### Implementation
+## Implementation
 
 ### Example
 
-ImageReaderFactory has a getReader function that instantiate and return a ImageReader object according to the given
-image
+ImageReaderFactory has a getReader function that instantiate and return proper ImageReader object according to the given
+image's format
 
 ```kotlin
 sealed interface ImageReader {
@@ -107,7 +105,7 @@ Reading JPG image
 Reading empty image
 ```
 
-### Real World Uses
+### Known Uses
 
 - java.text.NumberFormat#getInstance()
 - java.nio.charset.Charset#forName()
