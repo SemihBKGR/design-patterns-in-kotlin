@@ -14,10 +14,10 @@
         <module>factory</module>
         <module>strategy</module>
         <module>observer</module>
-        <module>builder</module>
         <module>adapter</module>
         <module>state</module>
         <module>prototype</module>
+        <module>builder</module>
     </modules>
 
     <properties>
