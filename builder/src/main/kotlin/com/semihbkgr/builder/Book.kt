@@ -1,11 +1,13 @@
 package com.semihbkgr.builder
 
 class Book private constructor(
-    val isbn: String?,
+    val isbn: String,
     val title: String?,
     val author: String?,
     val page: Int
 ) {
+
+    override fun toString(): String = "Book(isbn=$isbn, title=$title, author=$author, page=$page)"
 
     data class Builder(
         val isbn: String,
@@ -18,7 +20,5 @@ class Book private constructor(
         fun page(page: Int) = apply { this.page = page }
         fun build() = Book(isbn, title, author, page)
     }
-
-    override fun toString(): String = "Book(isbn=$isbn, title=$title, author=$author, page=$page)"
 
 }
