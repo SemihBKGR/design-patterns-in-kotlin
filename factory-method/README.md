@@ -2,7 +2,7 @@
 
 |Name|Type|A.K.A.|
 |---|---|---|
-|Builder|Creational|<ul><li>Virtual Constructor</li></ul>|
+|Factory Method|Creational|<ul><li>Virtual Constructor</li></ul>|
 
 ## Explanation
 

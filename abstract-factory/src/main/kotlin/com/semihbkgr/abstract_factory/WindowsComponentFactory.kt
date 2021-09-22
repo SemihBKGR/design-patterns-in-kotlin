@@ -1,0 +1,9 @@
+package com.semihbkgr.abstract_factory
+
+class WindowsComponentFactory : GUIComponentFactory {
+
+    override fun createButton(): Button = WindowsButton()
+
+    override fun createPanel(): Panel = WindowsPanel()
+
+}
