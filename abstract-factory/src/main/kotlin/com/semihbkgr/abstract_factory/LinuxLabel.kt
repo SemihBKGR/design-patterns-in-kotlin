@@ -1,9 +1,9 @@
 package com.semihbkgr.abstract_factory
 
-class WindowsPanel:Panel {
+class LinuxLabel:Label {
 
     override fun draw() {
-        println("Windows panel draw")
+        println("Linux label draw")
     }
 
 }

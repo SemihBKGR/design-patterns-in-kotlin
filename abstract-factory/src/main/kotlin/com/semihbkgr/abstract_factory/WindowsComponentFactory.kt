@@ -4,6 +4,6 @@ class WindowsComponentFactory : GUIComponentFactory {
 
     override fun createButton(): Button = WindowsButton()
 
-    override fun createPanel(): Panel = WindowsPanel()
+    override fun createPanel(): Label = WindowsLabel()
 
 }

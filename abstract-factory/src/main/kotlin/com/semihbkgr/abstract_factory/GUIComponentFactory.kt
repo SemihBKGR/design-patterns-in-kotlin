@@ -4,6 +4,6 @@ interface GUIComponentFactory {
 
     fun createButton():Button
 
-    fun createPanel():Panel
+    fun createPanel():Label
 
 }

@@ -4,6 +4,6 @@ class LinuxComponentFactory : GUIComponentFactory {
 
     override fun createButton(): Button = LinuxButton()
 
-    override fun createPanel(): Panel = LinuxPanel()
+    override fun createPanel(): Label = LinuxLabel()
 
 }

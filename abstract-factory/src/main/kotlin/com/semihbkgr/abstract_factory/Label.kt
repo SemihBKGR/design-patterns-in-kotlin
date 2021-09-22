@@ -1,6 +1,6 @@
 package com.semihbkgr.abstract_factory
 
-interface Panel {
+interface Label {
 
     fun draw()
 
