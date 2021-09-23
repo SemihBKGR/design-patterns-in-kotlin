@@ -2,8 +2,8 @@ package com.semihbkgr.proxy
 
 fun main() {
 
-    var connection=ConnectionImpl()
-    var connectionProxy=ConnectionProxy(connection,1)
+    val connection = ConnectionImpl()
+    val connectionProxy = ConnectionProxy(connection, 1)
     connectionProxy.connect()
     connectionProxy.connect()
 
