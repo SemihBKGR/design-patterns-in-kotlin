@@ -1,6 +1,6 @@
 # Design Patterns in Kotlin
 
-Implementation of design patterns in Kotlin
+Implementation of GoF design patterns in Kotlin
 
 ## Types of Design Patterns
 
@@ -19,11 +19,11 @@ Design Patterns are mainly categorized into three section
 > \
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/Creational_pattern)
 
-List of patterns
-
-* Factory
-* Singleton
+* Abstract Factory
+* Prototype
 * Builder
+* Factory Method  
+* Singleton
 
 ## Structural
 
@@ -32,9 +32,13 @@ List of patterns
 > \
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/Structural_pattern)
 
-List of patterns
-
 * Adapter
+* Bridge
+* Composite
+* Decorator
+* Facade
+* Flyweight
+* Proxy
 
 ## Behavioral
 
@@ -42,10 +46,6 @@ List of patterns
 > among objects. By doing so, these patterns increase flexibility in carrying out communication.\
 > \
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/Behavioral_pattern)
-
-List of patterns
-
-* Observer
 
 ## References
 
