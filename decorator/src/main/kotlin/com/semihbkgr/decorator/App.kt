@@ -1,10 +1,12 @@
 package com.semihbkgr.decorator
 
+import java.util.*
+
 fun main() {
 
-    val circle=Circle()
+    val circle = Circle()
     circle.draw()
-    val blueCircle=ColoredShape("blue",circle)
+    val blueCircle = ColoredShape("blue", circle)
     blueCircle.draw()
 
 }
