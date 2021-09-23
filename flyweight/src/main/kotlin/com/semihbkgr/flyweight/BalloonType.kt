@@ -2,9 +2,9 @@ package com.semihbkgr.flyweight
 
 import java.awt.Color
 
-data class BalloonType(val name:String,val color: Color){
+data class BalloonType(val name: String, val color: Color) {
 
-    init{
+    init {
         println("New balloon type initialized, name:$name")
     }
 
