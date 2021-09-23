@@ -22,6 +22,7 @@
         <module>abstract-factory</module>
         <module>bridge</module>
         <module>composite</module>
+        <module>decorator</module>
     </modules>
 
     <properties>
