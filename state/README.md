@@ -2,7 +2,7 @@
 
 |Name|Type|A.K.A.|
 |---|---|---|
-|State|Behavioral|<ul><li>Policy</li></ul>|
+|State|Behavioral|<ul><li>Objects for States</li></ul>|
 
 ## Explanation
 

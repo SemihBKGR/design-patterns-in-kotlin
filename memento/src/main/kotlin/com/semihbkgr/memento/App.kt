@@ -15,10 +15,10 @@ fun main() {
     textFile.printFile()
     textFile.append(",7,8,9")
     textFile.printFile()
-    textFile.setMemento(stack.pop())
+    textFile.createMemento(stack.pop())
     println("Loading prerecorded memento")
     textFile.printFile()
-    textFile.setMemento(stack.pop())
+    textFile.createMemento(stack.pop())
     println("Loading prerecorded memento")
     textFile.printFile()
 

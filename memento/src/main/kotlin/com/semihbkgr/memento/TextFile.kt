@@ -22,7 +22,7 @@ class TextFile(var name: String) {
 
     fun getMemento(): FileMemento = TextFileMemento(name, lastUpdateTime, text)
 
-    fun setMemento(fileMemento: FileMemento) {
+    fun createMemento(fileMemento: FileMemento) {
         var textFileMemento = fileMemento as TextFileMemento
         this.name = textFileMemento.name
         this.lastUpdateTime = textFileMemento.lastUpdateTime

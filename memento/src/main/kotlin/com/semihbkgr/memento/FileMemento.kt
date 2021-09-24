@@ -1,4 +1,3 @@
 package com.semihbkgr.memento
 
-interface FileMemento {
-}
+interface FileMemento
