@@ -4,7 +4,7 @@ Implementation of GoF design patterns in Kotlin
 
 ## Types of Design Patterns
 
-Design Patterns are mainly categorized into three section
+Design Patterns are mainly categorized into three sections
 
 * [Creational](#creational)
 * [Structural](#structural)
@@ -47,8 +47,17 @@ Design Patterns are mainly categorized into three section
 > \
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/Behavioral_pattern)
 
+* Memento
+* Observer  
+* State
+* Strategy
+* Template Method
+
 ## References
 
-- Design Patterns: Elements of Reusable Object
-- Gang of Four Design Patterns Reference Sheet
+Intent and Applicability parts are taken from\
+[Design Patterns: Elements of Reusable Object](https://www.amazon.com.tr/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+
+Explanations and UML diagrams are taken from\
+[Gang of Four Design Patterns Reference Sheet](http://www.blackwasp.co.uk/gangoffour.aspx)
 
