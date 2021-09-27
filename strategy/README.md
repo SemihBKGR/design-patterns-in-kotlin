@@ -22,7 +22,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/strategy-uml.png" width="750">
+<img src="./src/main/resources/strategy-uml.png" width="400">
 
 ### Example
 

@@ -23,7 +23,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/decorator-uml.png" width="750">
+<img src="./src/main/resources/decorator-uml.png" width="400">
 
 ### Example
 

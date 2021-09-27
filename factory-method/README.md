@@ -23,7 +23,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/factory-method-uml.png" width="600">
+<img src="./src/main/resources/factory-method-uml.png" width="400">
 
 ### Example
 

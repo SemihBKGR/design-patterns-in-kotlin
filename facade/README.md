@@ -21,7 +21,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/facade-uml.png" width="500">
+<img src="./src/main/resources/facade-uml.png" width="400">
 
 ### Example
 

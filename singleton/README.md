@@ -26,7 +26,7 @@ In Kotlin, Types modified by 'object' keyword have only single instance instanti
 the object, use its name directly. The initialization of an object is done on first access and 'object' declaration is
 thread-safe. Object types cannot have any primary or secondary constructor.
 
-<img src="./src/main/resources/singleton-uml.png" width="300">
+<img src="./src/main/resources/singleton-uml.png" width="100">
 
 ### Example
 

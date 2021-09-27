@@ -21,7 +21,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/flyweight-uml.png" width="500">
+<img src="./src/main/resources/flyweight-uml.png" width="300">
 
 ### Example
 

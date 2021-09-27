@@ -23,7 +23,7 @@ additional helper methods in the same class as the template method.
 
 ## Implementation
 
-<img src="./src/main/resources/template-method-uml.png" width="500">
+<img src="./src/main/resources/template-method-uml.png" width="300">
 
 ### Example
 

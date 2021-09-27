@@ -24,7 +24,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/prototype-uml.png" width="600">
+<img src="./src/main/resources/prototype-uml.png" width="300">
 
 ### Example
 

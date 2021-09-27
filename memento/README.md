@@ -21,7 +21,7 @@ undo > via rollback).
 
 ## Implementation
 
-<img src="./src/main/resources/memento-uml.png" width="750">
+<img src="./src/main/resources/memento-uml.png" width="600">
 
 ### Example
 

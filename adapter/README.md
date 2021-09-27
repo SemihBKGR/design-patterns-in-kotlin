@@ -20,7 +20,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/adapter-uml.png" width="750">
+<img src="./src/main/resources/adapter-uml.png" width="400">
 
 ### Example
 

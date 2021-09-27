@@ -23,7 +23,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/abstract-factory-uml.png" width="750">
+<img src="./src/main/resources/abstract-factory-uml.png" width="500">
 
 ### Example
 

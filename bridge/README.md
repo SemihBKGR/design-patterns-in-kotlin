@@ -21,7 +21,7 @@
 
 ## Implementation
 
-<img src="./src/main/resources/adapter-uml.png" width="600">
+<img src="./src/main/resources/adapter-uml.png" width="400">
 
 ### Example
 
