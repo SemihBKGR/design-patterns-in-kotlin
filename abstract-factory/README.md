@@ -1,13 +1,12 @@
 # Abstract Factory Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|Abstract Factory|Structural|<ul><li>Kit</li></ul>|
+| Name             | Type       | A.K.A.                |
+|------------------|------------|-----------------------|
+| Abstract Factory | Structural | <ul><li>Kit</li></ul> |
 
 ## Explanation
 
-> The abstract factory pattern is used to provide a client with a set of related or dependant objects. The "family" of
-> objects created by the factory are determined at run-time.
+> The abstract factory pattern is used to provide a client with a set of related or dependant objects. The "family" of objects created by the factory are determined at run-time.
 
 ### Intent
 
@@ -15,15 +14,11 @@
 
 ### Wikipedia
 
-> The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme
-> without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of
-> the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of
-> the theme. The client does not know (or care) which concrete objects it gets from each of these internal factories,
-> since it uses only the generic interfaces of their products.
+> The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes. In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client does not know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products.
 
 ## Implementation
 
-<img src="./src/main/resources/abstract-factory-uml.png" width="500">
+<img src="./src/main/resources/abstract-factory-uml.png" alt="uml-diagram" width="500">
 
 ### Example
 
@@ -84,7 +79,7 @@ object GUIComponentFactoryProvider {
 }
 ```
 
-Main Factory
+Main function
 
 ```kotlin
 fun main() {
@@ -98,7 +93,7 @@ fun main() {
 }
 ```
 
-Program Output
+Program output
 
 ```
 Windows button render

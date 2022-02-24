@@ -1,14 +1,12 @@
 # Prototype Design Pattern
 
-|Name|Type|
-|---|---|
-|Prototype|Creational|
+| Name      | Type       |
+|-----------|------------|
+| Prototype | Creational |
 
 ## Explanation
 
-> The prototype pattern is used to instantiate a new object by copying all of the properties of an existing object,
-> creating an independent clone. This practise is particularly useful when the construction of a new object is
-> inefficient.
+> The prototype pattern is used to instantiate a new object by copying all of the properties of an existing object, creating an independent clone. This practise is particularly useful when the construction of a new object is inefficient.
 
 ### Intent
 
@@ -16,12 +14,11 @@
 
 ### Wikipedia
 
-> The prototype pattern is a creational design pattern in software development. It is used when the type of objects to
-> create is determined by a prototypical instance, which is cloned to produce new objects.
+> The prototype pattern is a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects.
 
 ## Implementation
 
-<img src="./src/main/resources/prototype-uml.png" width="300">
+<img src="./src/main/resources/prototype-uml.png" alt="uml-diagram" width="300">
 
 ### Example
 

@@ -1,29 +1,24 @@
 # Template Method Design Pattern
 
-|Name|Type|
-|---|---|
-|Strategy|Behavioral|
+| Name     | Type       |
+|----------|------------|
+| Strategy | Behavioral |
 
 ## Explanation
 
-The template method pattern is used to define the basic steps of an algorithm and allow the implementation of the
-individual steps to be changed.
+> The template method pattern is used to define the basic steps of an algorithm and allow the implementation of the individual steps to be changed.
 
 ### Intent
 
-Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses
-redefine certain steps of an algorithm without changing the algorithm's structure.
+> Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
 ### Wikipedia
 
-In object-oriented programming, the template method is one of the behavioral design patterns identified by Gamma et al.
-in the book Design Patterns. The template method is a method in a superclass, usually an abstract superclass, and
-defines the skeleton of an operation in terms of a number of high-level steps. These steps are themselves implemented by
-additional helper methods in the same class as the template method.
+> In object-oriented programming, the template method is one of the behavioral design patterns identified by Gamma et al. in the book Design Patterns. The template method is a method in a superclass, usually an abstract superclass, and defines the skeleton of an operation in terms of a number of high-level steps. These steps are themselves implemented by additional helper methods in the same class as the template method.
 
 ## Implementation
 
-<img src="./src/main/resources/template-method-uml.png" width="300">
+<img src="./src/main/resources/template-method-uml.png" alt="uml-diagram" width="300">
 
 ### Example
 

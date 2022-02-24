@@ -1,28 +1,24 @@
 # Observer Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|Observer|Behavioral|<ul><li>Dependents</li><li>Publish-Subscribe</li></ul>|
+| Name     | Type       | A.K.A.                                                 |
+|----------|------------|--------------------------------------------------------|
+| Observer | Behavioral | <ul><li>Dependents</li><li>Publish-Subscribe</li></ul> |
 
 ## Explanation
 
-> The observer pattern is used to allow an object to publish changes to its state. Other objects subscribe to be
-> immediately notified of any changes.
+> The observer pattern is used to allow an object to publish changes to its state. Other objects subscribe to be immediately notified of any changes.
 
 ### Intent
 
-> Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified
-> and updated automatically.
+> Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 ### Wikipedia
 
-> The observer pattern is a software design pattern in which an object, named the subject, maintains a list of its
-> dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their
-> methods.
+> The observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 
 ## Implementation
 
-<img src="./src/main/resources/observer-uml.png" width="400">
+<img src="./src/main/resources/observer-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 
@@ -53,10 +49,10 @@ class Item(val name: String, var price: Float) {
 ```
 
 Discount class is used to make any changes on item price
+
 ```kotlin
 class Discount(val percentage: Float, val hour: UInt)
 ```
-
 
 ```kotlin
 interface PriceObserver {

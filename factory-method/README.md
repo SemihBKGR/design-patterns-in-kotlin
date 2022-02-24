@@ -1,29 +1,24 @@
 # Factory Method Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|Factory Method|Creational|<ul><li>Virtual Constructor</li></ul>|
+| Name           | Type       | A.K.A.                                |
+|----------------|------------|---------------------------------------|
+| Factory Method | Creational | <ul><li>Virtual Constructor</li></ul> |
 
 ## Explanation
 
-> The factory pattern is used to replace class constructors, abstracting the process of object generation so that the type
-> of the object instantiated can be determined at run-time.
+> The factory pattern is used to replace class constructors, abstracting the process of object generation so that the type of the object instantiated can be determined at run-time.
 
 ### Intent
 
-> Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a
-> class defer instantiation to subclasses.
+> Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
 ### Wikipedia
 
-> In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with
-> the problem of creating objects without having to specify the exact class of the object that will be created. This is
-> done by creating objects by calling a factory method—either specified in an interface and implemented by child classes,
-> or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor.
+> In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor.
 
 ## Implementation
 
-<img src="./src/main/resources/factory-method-uml.png" width="400">
+<img src="./src/main/resources/factory-method-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 

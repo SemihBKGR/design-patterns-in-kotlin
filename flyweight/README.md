@@ -1,13 +1,12 @@
 # Flyweight Design Pattern
 
-|Name|Type|
-|---|---|
-|Flyweight|Structural|
+| Name      | Type       |
+|-----------|------------|
+| Flyweight | Structural |
 
 ## Explanation
 
-> The flyweight pattern is used to reduce the memory and resource usage for complex models containing many hundreds,
-> thousands or hundreds of thousands of similar objects.
+> The flyweight pattern is used to reduce the memory and resource usage for complex models containing many hundreds, thousands or hundreds of thousands of similar objects.
 
 ### Intent
 
@@ -15,13 +14,11 @@
 
 ### Wikipedia
 
-> In computer programming, flyweight is a software design pattern. A flyweight is an object that minimizes memory use by
-> sharing as much data as possible with other similar objects; it is a way to use objects in large numbers when a simple
-> repeated representation would use an unacceptable amount of memory.
+> In computer programming, flyweight is a software design pattern. A flyweight is an object that minimizes memory use by sharing as much data as possible with other similar objects; it is a way to use objects in large numbers when a simple repeated representation would use an unacceptable amount of memory.
 
 ## Implementation
 
-<img src="./src/main/resources/flyweight-uml.png" width="300">
+<img src="./src/main/resources/flyweight-uml.png" alt="uml-diagram" width="300">
 
 ### Example
 

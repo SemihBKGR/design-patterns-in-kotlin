@@ -1,13 +1,12 @@
 # Singleton Design Pattern
 
-|Name|Type|
-|---|---|
-|Singleton|Creational|
+| Name      | Type       |
+|-----------|------------|
+| Singleton | Creational |
 
 ## Explanation
 
-> The singleton pattern ensures that only one object of a particular class is ever created. All further references to
-> objects of the singleton class refer to the same underlying instance.
+> The singleton pattern ensures that only one object of a particular class is ever created. All further references to objects of the singleton class refer to the same underlying instance.
 
 ### Intent
 
@@ -15,10 +14,7 @@
 
 ### Wikipedia
 
-> In software engineering, the singleton pattern is a software design pattern
-> that restricts the instantiation of a class to one "single" instance.
-> This is useful when exactly one object is needed to coordinate actions across the system.
-> The term comes from the mathematical concept of a singleton.
+> In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system. The term comes from the mathematical concept of a singleton.
 
 ## Implementation
 
@@ -26,7 +22,7 @@ In Kotlin, Types modified by 'object' keyword have only single instance instanti
 the object, use its name directly. The initialization of an object is done on first access and 'object' declaration is
 thread-safe. Object types cannot have any primary or secondary constructor.
 
-<img src="./src/main/resources/singleton-uml.png" width="100">
+<img src="./src/main/resources/singleton-uml.png" alt="uml-diagram" width="100">
 
 ### Example
 

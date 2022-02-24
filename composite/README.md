@@ -1,29 +1,24 @@
 # Composite Design Pattern
 
-|Name|Type|
-|---|---|
-|Composite|Structural|
+| Name      | Type       |
+|-----------|------------|
+| Composite | Structural |
 
 ## Explanation
 
-> The composite pattern is used to create hierarchical, recursive tree structures of related objects where any element of
-> the structure may be accessed and utilised in a standard manner.
+> The composite pattern is used to create hierarchical, recursive tree structures of related objects where any element of the structure may be accessed and utilised in a standard manner.
 
 ### Intent
 
-> Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual
-> objects and compositions of objects uniformly.
+> Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
 ### Wikipedia
 
-> In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group
-> of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is
-> to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets
-> clients treat individual objects and compositions uniformly.
+> In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that are treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly.
 
 ## Implementation
 
-<img src="./src/main/resources/composite-uml.png" width="400">
+<img src="./src/main/resources/composite-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 

@@ -1,28 +1,24 @@
 # Strategy Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|Strategy|Behavioral|<ul><li>Policy</li></ul>|
+| Name     | Type       | A.K.A.                   |
+|----------|------------|--------------------------|
+| Strategy | Behavioral | <ul><li>Policy</li></ul> |
 
 ## Explanation
 
-> The strategy pattern is used to create an interchangeable family of algorithms from which the required process is chosen
-> at run-time.
+> The strategy pattern is used to create an interchangeable family of algorithms from which the required process is chosen at run-time.
 
 ### Intent
 
-> Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary
-> independently from clients that use it.
+> Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 ### Wikipedia
 
-> In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design pattern
-> that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives
-> run-time instructions as to which in a family of algorithms to use.
+> In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use.
 
 ## Implementation
 
-<img src="./src/main/resources/strategy-uml.png" width="400">
+<img src="./src/main/resources/strategy-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 

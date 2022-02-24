@@ -1,14 +1,12 @@
 # Proxy Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|Proxy|Structural|<ul><li>Surrogate</li></ul>|
+| Name  | Type       | A.K.A.                      |
+|-------|------------|-----------------------------|
+| Proxy | Structural | <ul><li>Surrogate</li></ul> |
 
 ## Explanation
 
-> The proxy pattern is used to provide a surrogate or placeholder object, which references an underlying object. The proxy
-> provides the same public interface as the underlying subject class, adding a level of indirection by accepting requests
-> from a client object and passing these to the real subject object as necessary.
+> The proxy pattern is used to provide a surrogate or placeholder object, which references an underlying object. The proxy provides the same public interface as the underlying subject class, adding a level of indirection by accepting requests from a client object and passing these to the real subject object as necessary.
 
 ### Intent
 
@@ -16,15 +14,11 @@
 
 ### Wikipedia
 
-> A proxy, in its most general form, is a class functioning as an interface to something else. A proxy is a wrapper or
-> agent object that is being called by the client to access the real serving object behind the scenes. Use of the proxy
-> can simply be forwarding to the real object, or can provide additional logic. In the proxy extra functionality can be
-> provided, for example caching when operations on the real object are resource intensive, or checking preconditions
-> before operations on the real object are invoked.
+> A proxy, in its most general form, is a class functioning as an interface to something else. A proxy is a wrapper or agent object that is being called by the client to access the real serving object behind the scenes. Use of the proxy can simply be forwarding to the real object, or can provide additional logic. In the proxy extra functionality can be provided, for example caching when operations on the real object are resource intensive, or checking preconditions before operations on the real object are invoked.
 
 ## Implementation
 
-<img src="./src/main/resources/prototype-uml.png" width="300">
+<img src="./src/main/resources/proxy-uml.png" alt="uml-diagram" width="300">
 
 ### Example
 

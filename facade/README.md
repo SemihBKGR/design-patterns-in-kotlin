@@ -1,8 +1,8 @@
 # Facade Design Pattern
 
-|Name|Type|
-|---|---|
-|Facade|Structural|
+| Name   | Type       |
+|--------|------------|
+| Facade | Structural |
 
 ## Explanation
 
@@ -10,18 +10,15 @@
 
 ### Intent
 
-> Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes
-> the subsystem easier to use.
+> Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
 
 ### Wikipedia
 
-> facade pattern is a software-design pattern commonly used in object-oriented programming. Analogous to a facade in
-> architecture, a facade is an object that serves as a front-facing interface masking more complex underlying or
-> structural code.
+> facade pattern is a software-design pattern commonly used in object-oriented programming. Analogous to a facade in architecture, a facade is an object that serves as a front-facing interface masking more complex underlying or structural code.
 
 ## Implementation
 
-<img src="./src/main/resources/facade-uml.png" width="400">
+<img src="./src/main/resources/facade-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 

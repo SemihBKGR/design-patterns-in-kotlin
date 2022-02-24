@@ -1,13 +1,12 @@
 # Bridge Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|Bridge|Structural|<ul><li>Handle/Body</li></ul>|
+| Name   | Type       | A.K.A.                        |
+|--------|------------|-------------------------------|
+| Bridge | Structural | <ul><li>Handle/Body</li></ul> |
 
 ## Explanation
 
-> The bridge pattern is used to separate the abstract elements of a class from the implementation details, providing the
-> means to replace the implementation details without modifying the abstraction.
+> The bridge pattern is used to separate the abstract elements of a class from the implementation details, providing the means to replace the implementation details without modifying the abstraction.
 
 ### Intent
 
@@ -15,13 +14,11 @@
 
 ### Wikipedia
 
-> The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its
-> implementation so that the two can vary independently", introduced by the Gang of Four. The bridge uses encapsulation,
-> aggregation, and can use inheritance to separate responsibilities into different classes.
+> The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently", introduced by the Gang of Four. The bridge uses encapsulation, aggregation, and can use inheritance to separate responsibilities into different classes.
 
 ## Implementation
 
-<img src="./src/main/resources/adapter-uml.png" width="400">
+<img src="./src/main/resources/bridge-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 

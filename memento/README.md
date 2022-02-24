@@ -1,27 +1,24 @@
 # Memento Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|Memento|Behavioral|<ul><li>Token</li></ul>|
+| Name    | Type       | A.K.A.                  |
+|---------|------------|-------------------------|
+| Memento | Behavioral | <ul><li>Token</li></ul> |
 
 ## Explanation
 
-> The memento pattern is used to capture the current state of an object and store it in such a manner that it can be
-> restored at a later time without breaking the rules of encapsulation.
+> The memento pattern is used to capture the current state of an object and store it in such a manner that it can be restored at a later time without breaking the rules of encapsulation.
 
 ### Intent
 
-> Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored
-> to this state later.
+> Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
 ### Wikipedia
 
-> The memento pattern is a software design pattern that provides the ability to restore an object to its previous state (
-undo > via rollback).
+> The memento pattern is a software design pattern that provides the ability to restore an object to its previous state (undo > via rollback).
 
 ## Implementation
 
-<img src="./src/main/resources/memento-uml.png" width="600">
+<img src="./src/main/resources/memento-uml.png" alt="uml-diagram" width="600">
 
 ### Example
 

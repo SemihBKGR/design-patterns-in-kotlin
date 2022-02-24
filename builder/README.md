@@ -1,28 +1,24 @@
 # Builder Design Pattern
 
-|Name|Type|
-|---|---|
-|Builder|Creational|
+| Name    | Type       |
+|---------|------------|
+| Builder | Creational |
 
 ## Explanation
 
-> The builder pattern is used to create complex objects with constituent parts that must be created in the same order or
-> using a specific algorithm. An external class controls the construction algorithm.
+> The builder pattern is used to create complex objects with constituent parts that must be created in the same order or using a specific algorithm. An external class controls the construction algorithm.
 
 ### Intent
 
-> Separate the construction of a complex object from its representation so that the same construction process can create
-> different representations.
+> Separate the construction of a complex object from its representation so that the same construction process can create different representations.
 
 ### Wikipedia
 
-> The builder pattern is a design pattern designed to provide a flexible solution to various object creation problems in
-> object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex
-> object from its representation.
+> The builder pattern is a design pattern designed to provide a flexible solution to various object creation problems in object-oriented programming. The intent of the Builder design pattern is to separate the construction of a complex object from its representation.
 
 ## Implementation
 
-<img src="./src/main/resources/builder-uml.png" width="400">
+<img src="./src/main/resources/builder-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 

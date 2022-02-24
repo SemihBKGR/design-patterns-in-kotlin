@@ -1,27 +1,24 @@
 # State Design Pattern
 
-|Name|Type|A.K.A.|
-|---|---|---|
-|State|Behavioral|<ul><li>Objects for States</li></ul>|
+| Name  | Type       | A.K.A.                               |
+|-------|------------|--------------------------------------|
+| State | Behavioral | <ul><li>Objects for States</li></ul> |
 
 ## Explanation
 
-The state pattern is used to alter the behaviour of an object as its internal state changes. The pattern allows the
-class for an object to apparently change at run-time.
+> The state pattern is used to alter the behaviour of an object as its internal state changes. The pattern allows the class for an object to apparently change at run-time.
 
 ### Intent
 
-Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+> Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
 ### Wikipedia
 
-The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal
-state changes. This pattern is close to the concept of finite-state machines. The state pattern can be interpreted as a
-strategy pattern, which is able to switch a strategy through invocations of methods defined in the pattern's interface.
+> The state pattern is a behavioral software design pattern that allows an object to alter its behavior when its internal state changes. This pattern is close to the concept of finite-state machines. The state pattern can be interpreted as a strategy pattern, which is able to switch a strategy through invocations of methods defined in the pattern's interface.
 
 ## Implementation
 
-<img src="./src/main/resources/state-uml.png" width="400">
+<img src="./src/main/resources/state-uml.png" alt="uml-diagram" width="400">
 
 ### Example
 
